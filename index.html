@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login-View</title>
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="login-page">
+            <div class="banner"></div>
+
+            <div class="content">
+                <form class="form">
+                    <div class="form__title-group">
+                        <h3 class="title-mini">Welcome back</h3>
+                        <h1 class="title-super">Login to Your Account</h1>
+                    </div>
+                    <div class="form__input-group">
+                        <label for="user-email" class="form__label">
+                            Email
+                        </label>
+                        <input
+                            type="email"
+                            name="user-email"
+                            id="user-email"
+                            placeholder="John.snow@gmail.com"
+                        />
+
+                        <label for="user-password" class="form__label">
+                            Password
+                        </label>
+                        <input
+                            type="password"
+                            name="user-password"
+                            id="user-password"
+                            placeholder="*********"
+                        />
+
+                        <div class="checkbox-block">
+                            <input
+                                type="checkbox"
+                                name="remember"
+                                id="remember"
+                            />
+                            <label for="remember" class="form__label">
+                                Remember me
+                            </label>
+                            <a href="#!" class="form__link">Forgot password?</a>
+                        </div>
+                    </div>
+                    <div class="form__button-group">
+                        <button class="btn login-btn">Login Now</button>
+                        <button class="btn sign-in-btn">
+                            <img src="google.svg" alt="" />
+                            Or sign-in with Google
+                        </button>
+                    </div>
+
+                    <div class="form__join-free">
+                        Don't have an account?
+                        <a href="#!">Join free today</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
